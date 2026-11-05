@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Brand DNA Interview</title>
+  <desc id="desc">Find the words that feel like you. One question at a time. Listen, clarify, confirm.</desc>
+  <rect width="1280" height="440" rx="16" fill="#F3F0E8"/>
+  <path d="M56 76H1224M56 340H1224" stroke="#CCC7B9"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#46513C">
+    <text x="56" y="48" font-size="14" letter-spacing="3">A FIELD GUIDE TO YOUR VOICE</text>
+    <text x="1224" y="48" font-size="14" letter-spacing="2" text-anchor="end">AGENT SKILL / 001</text>
+  </g>
+  <text x="52" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="96" letter-spacing="-3" fill="#242A23">Brand DNA</text>
+  <text x="58" y="249" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#4D5249">Find the words that feel like you.</text>
+  <text x="58" y="290" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#666B60">An adaptive interview. One question at a time.</text>
+  <g transform="translate(1000 120)">
+    <rect x="0" y="0" width="180" height="145" rx="26" fill="#46513C"/>
+    <path d="M30 140V174L72 140" fill="#46513C"/>
+    <text x="90" y="109" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" fill="#F3F0E8">?</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18">
+    <text x="58" y="393" fill="#777B6E">01</text><text x="100" y="393" fill="#242A23">Listen</text>
+    <text x="450" y="393" fill="#777B6E">02</text><text x="492" y="393" fill="#242A23">Clarify</text>
+    <text x="842" y="393" fill="#777B6E">03</text><text x="884" y="393" fill="#242A23">Confirm</text>
+  </g>
+</svg>
