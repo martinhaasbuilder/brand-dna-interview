@@ -33,12 +33,12 @@ These are prompts for discovery, not a mandatory checklist. You can skip a quest
 ```text
 Use the attached SKILL.md to help me build my Brand DNA.
 Ask one question at a time and wait for my answer.
-Conduct the interview in English.
+Use my preferred language for the interview and the final document.
 ```
 
 For an agent that supports local skills, place the file in a `brand-dna-interview/` folder in that agent’s configured skills directory, then invoke the skill using its supported mechanism.
 
-**Language:** the skill itself is written in French and instructs the agent to adapt to your language. You can request an interview in English or another language. The English interview flow has not yet been tested.
+**Language:** the skill is written in English. The interview and final Brand DNA follow your language, including headings, uncertainty labels and the confirmation request. An explicit language preference takes priority; otherwise, the agent follows your own messages. English source instructions and quoted material do not override that choice.
 
 **Portability:** designed as plain Markdown instructions for agents such as Hermes, Claude and Codex. Loading methods vary by environment; compatibility has not been independently verified across all three.
 
@@ -80,7 +80,7 @@ Optional integration suggestions come only if you want them, after confirmation.
 
 ## Validation
 
-One independent agent test used a fictional librarian profile in a French interview, with eight agent responses. It checked:
+Before the instructions were translated into English, one independent agent test used a fictional librarian profile in a French interview, with eight agent responses. It checked:
 
 - One information request per question-bearing message, followed by a wait for the next answer.
 - Adaptation to a non-commercial context outside the technology sector.
@@ -90,7 +90,9 @@ One independent agent test used a fictional librarian profile in a French interv
 - A correction carried through the synthesis and a hypothesis preserved after approval.
 - Respect for the user’s choice to decline integration recommendations.
 
-This is evidence from one scenario, not a guarantee of identical behavior across models. The YAML metadata and Markdown code fences were also checked.
+After translation, a separate three-response check used a fictional drawing teacher. The agent asked its first question in French despite the English instructions and an English quotation, produced a French draft with localized uncertainty labels, then switched the synthesis and confirmation question to Spanish when explicitly requested. The hypothesis stayed marked as uncertain.
+
+These are limited scenario checks, not a guarantee of identical behavior across models. A full interview conducted in English has not yet been tested. The YAML metadata and Markdown code fences were also checked.
 
 ---
 
